@@ -1,0 +1,42 @@
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+
+/* -- RANGE -- */
+
+.step2-dom {
+	display: none;
+}
+
+.step2-kvartira {
+	display: none;
+}
+
+.step2-dacha {
+	display: none;
+}
+
+.step2-drugoe {
+	display: none;
+}
+
+
+
+/* -- Видимость объектов -- */
+
+.vis0 {
+	display: none;
+}
+
+.vis1 {
+	visibility: visible;
+}
+		
+.hidden {
+	display: none;
+}
