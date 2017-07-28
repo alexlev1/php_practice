@@ -18,18 +18,16 @@
 				<th colspan="4">Калькулятор</th>
 			<tr>
 			<tr>
-				<td colspan="4"><input type="text" class="text" name="a" value=""></td>
+				<td colspan="4"><input type="text" class="text" name="a" value="<?=$a;?>"></td>
 			</tr>
 			<tr>
-				<td colspan="4"><input type="text" class="text" name="b" value=""></td>
+				<td colspan="4"><input type="text" class="text" name="b" value="<?=$b;?>"></td>
 			</tr>
 			<tr>
-				<label>
 				<td><input type="radio" name="num" value="+">+</td>
 				<td><input type="radio" name="num" value="-">-</td>
 				<td><input type="radio" name="num" value="*">*</td>
 				<td><input type="radio" name="num" value="/">/</td>
-				</label>
 			</tr>
 			<tr>
 				<td colspan="4"><input type="submit" class="button" name="calculate" value="=" style="width:100%"></td>
