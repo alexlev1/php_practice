@@ -18,10 +18,10 @@
 				<th colspan="4">Калькулятор</th>
 			<tr>
 			<tr>
-				<td colspan="4"><input type="text" class="text" name="a" value="<?=$a;?>"></td>
+				<td colspan="4"><input type="text" class="text" name="a" value="<?=$a?>"></td>
 			</tr>
 			<tr>
-				<td colspan="4"><input type="text" class="text" name="b" value="<?=$b;?>"></td>
+				<td colspan="4"><input type="text" class="text" name="b" value="<?=$b?>"></td>
 			</tr>
 			<tr>
 				<td><input type="radio" name="num" value="+">+</td>
@@ -34,7 +34,7 @@
 			</tr>
 			<tr>
 				<td>Result:</td>
-				<td colspan="3"><input type="text" class="text" name="result" value="<?=$result;?>"></td>
+				<td colspan="3"><input type="text" class="text" name="result" value="<?=$result?>"></td>
 			</tr>
 		</table>
 	</form>

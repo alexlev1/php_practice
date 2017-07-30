@@ -4,8 +4,8 @@
 		global $a;
 	    global $b;
 
-	    $a = $_REQUEST["a"];
-		$b = $_REQUEST["b"];
+	    $a = $_REQUEST["a"] ?? false;
+		$b = $_REQUEST["b"] ?? false;
 
 		if(is_numeric($a) && is_numeric($b)) {
             switch ($_REQUEST["num"])
